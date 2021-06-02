@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -17,24 +18,31 @@
          />
 
     <EditText
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:tag="Tag del primer EditText"
         />
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:tag="Tag del segundo EditText"
         />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="80dp"
         android:background="@color/cardview_shadow_end_color"
         android:text="Botón"
         android:textColor="@color/black"
-        android:enabled="true"/>
+        android:enabled="true"
+        android:tag="Tag del Boton"
+        />
 
 </LinearLayout>
